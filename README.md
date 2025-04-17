@@ -33,7 +33,18 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+As an end-user, create the following ticket
+entire mobile/online banking system is down
+As a Help Desk Agent (john), observe the ticket’s properties
+	Priority
+	Department
+	SLA
+	Assigned To
+Set Properties to the ticket
+Sev-A (1 hour, 24/7)
+Online Banking Department
+Attempt to observe the ticket again as “john”. Can you view or change?
+Work the ticket to completion as jane
 </p>
 <br />
 
@@ -41,7 +52,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+As an end-user, create the following ticket
+accounting department needs adobe upgrade, broken
+As a Help Desk Agent (john), observe the ticket’s properties
+	Priority
+	Department
+	SLA
+	Assigned To
+Set Properties to the ticket
+Sev-B (4 hours, 24/7)
+Support
+Work the ticket to completion as john
+
 </p>
 <br />
 
@@ -49,6 +71,34 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+As an end-user, create the following ticket
+CFO’s laptop will no longer turn on
+
+As a Help Desk Agent (john), observe the ticket’s properties
+	Priority
+	Department
+	SLA
+	Assigned To
+Set Properties to the ticket
+Sev-B (4 hours, 24/7)
+Support
+Work the ticket to completion as john
+
 </p>
 <br /># ticket-lifecycle
+Assign Properties to All Tickets
+Set all tickets to SLA: SEV-A.
+Assign departments accordingly (make SysAdmins the last one).
+Observe that the SysAdmins ticket becomes inaccessible from the Agent Panel if you’re not assigned or lack permissions.
+Regain AccessGo to the Admin Panel → Agents → Departments.
+Assign yourself view access to the SysAdmins department.
+Switch back to the Agent Panel – now the escalated SysAdmins ticket is visible, but note:
+You can view the ticket.
+You cannot make changes unless you have explicit edit permissions or are assigned to it.
+Resolve All Tickets
+Go through and close/resolve each one.
+Tip: In most ticketing systems (likely including this one), there’s an email notification system:
+Every time you update a ticket, the user gets an email.
+If they reply to that email, it logs a response in the ticket automatically.
+
+
