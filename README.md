@@ -6,9 +6,6 @@
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,11 +27,18 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+	
+![04405A39-169B-40D6-9123-B701A894D964_1_105_c](https://github.com/user-attachments/assets/cbbb620d-99b1-44f4-869f-4f6d616e7cac)
+
 </p>
 <p>
 As an end-user, create the following ticket
 entire mobile/online banking system is down
+	
+![9509BEED-C8AD-4329-9BC8-18845884D78D_1_105_c](https://github.com/user-attachments/assets/53e46cc1-9e9a-4bd5-9c2f-7e244c9ef6da)
+
+![47D3535D-3D80-4EDB-B256-43AAD3329EB5_1_105_c](https://github.com/user-attachments/assets/9cebaaff-da7e-498d-a65c-5ca47cc4777f)
+
 As a Help Desk Agent (john), observe the ticket’s properties
 	Priority
 	Department
@@ -42,33 +46,22 @@ As a Help Desk Agent (john), observe the ticket’s properties
 	Assigned To
 Set Properties to the ticket
 Sev-A (1 hour, 24/7)
-Online Banking Department
+Online Banking Department or Support
 Attempt to observe the ticket again as “john”. Can you view or change?
+
+![0CB0D495-BFD8-4249-AD17-29F513A14311_1_201_a](https://github.com/user-attachments/assets/38b7e86c-5875-4954-8932-19840b9ebeed)
+
 Work the ticket to completion as jane
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-As an end-user, create the following ticket
-accounting department needs adobe upgrade, broken
-As a Help Desk Agent (john), observe the ticket’s properties
-	Priority
-	Department
-	SLA
-	Assigned To
-Set Properties to the ticket
-Sev-B (4 hours, 24/7)
-Support
-Work the ticket to completion as john
-
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+	
+![97297A33-D052-4702-B3C8-5145D0EB1E61_1_105_c](https://github.com/user-attachments/assets/2e429f3e-4d85-4c2c-98cc-a61432e2fe0b)
+	
 </p>
 <p>
 As an end-user, create the following ticket
@@ -84,19 +77,6 @@ Sev-B (4 hours, 24/7)
 Support
 Work the ticket to completion as john
 
-</p>
-<br /># ticket-lifecycle
-Assign Properties to All Tickets
-Set all tickets to SLA: SEV-A.
-Assign departments accordingly (make SysAdmins the last one).
-Observe that the SysAdmins ticket becomes inaccessible from the Agent Panel if you’re not assigned or lack permissions.
-Regain AccessGo to the Admin Panel → Agents → Departments.
-Assign yourself view access to the SysAdmins department.
-Switch back to the Agent Panel – now the escalated SysAdmins ticket is visible, but note:
-You can view the ticket.
-You cannot make changes unless you have explicit edit permissions or are assigned to it.
-Resolve All Tickets
-Go through and close/resolve each one.
 Tip: In most ticketing systems (likely including this one), there’s an email notification system:
 Every time you update a ticket, the user gets an email.
 If they reply to that email, it logs a response in the ticket automatically.
